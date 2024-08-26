@@ -1,4 +1,5 @@
 from . import __version__ as app_version
+from ...healthcare.healthcare.hooks import required_apps
 
 app_name = "khs"
 app_title = "Khs"
@@ -215,3 +216,4 @@ app_license = "MIT"
 # auth_hooks = [
 #	"khs.auth.validate"
 # ]
+required_apps = ['erpnext']
